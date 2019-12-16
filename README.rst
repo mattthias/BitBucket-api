@@ -1,4 +1,5 @@
-#BitBucket-API
+BitBucket-API
+=============
 
 [![Build Status](https://secure.travis-ci.org/Sheeprider/BitBucket-api.png)](http://travis-ci.org/Sheeprider/BitBucket-api)
 
@@ -7,7 +8,8 @@ BitBucket-api is an ISC Licensed library, written in Python.
 Bitbucket has a REST API publicly available, this package provide methods to interact with it.
 It allows you to access most repositories, services (hooks) and ssh keys related functionalities.
 
-##Features
+Features
+--------
 
 * Access public user informations
 * Access public or private repositories, tags or branches
@@ -18,16 +20,27 @@ It allows you to access most repositories, services (hooks) and ssh keys related
 * Access, create, update or delete an issue
 * Access, create, update or delete an issue comment
 
-##Installation
+Installation
+------------
 
-To install bitbucket-api, simply:
+To install bitbucket-api, simply::
+  
+  $ pip install bitbucket-api
 
-	$ pip install bitbucket-api
+
+Requirements
+------------
+
+Bitbucket-api require requests_ , sh_ and requests-oauthlib_ to work, but dependencies should be handled by pip.
+
+.. _requests: https://github.com/kennethreitz/requests
+.. _sh: https://github.com/amoffat/sh
+.. _requests-oauthlib: https://github.com/requests/requests-oauthlib
 
 
-##Requirements
+Documentation
+-------------
 
-Bitbucket-api require [requests](https://github.com/kennethreitz/requests), [sh](https://github.com/amoffat/sh) and [requests-oauthlib](https://github.com/requests/requests-oauthlib)to work, but dependencies should be handled by pip.
+Documentation is available on `Read The Docs`_.
 
-##Documentation
-Documentation is available on [Read The Docs](https://bitbucket-api.readthedocs.org/en/latest/index.html).
+.. _`Read The Docs`: https://bitbucket-api.readthedocs.org/en/latest/index.html
